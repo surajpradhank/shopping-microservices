@@ -10,3 +10,9 @@ Sample command : docker build
 
 
 Docker Run:docker run -d -p 8080:80 --name myapp shoppingclient
+
+Docker push to Docker Hub:
+	-> docker login
+	-> Tag the imae if the image is not tagged: docker tag imageid tagname
+	-> docker push imagename
+
