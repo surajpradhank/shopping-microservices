@@ -1,0 +1,12 @@
+Docker images: docker images
+
+Docker container: docker ps
+
+Docker Build: docker build -f "C:\Users\USER\source\repos\azure-microservices\Shopping\Shopping.Client\Dockerfile" -t shoppingclient:dev "C:\Users\USER\source\repos\azure-microservices\Shopping"
+Sample command : docker build 
+				 -f "ProjectPath\Dockerfile" 
+				 -t IMAGE_NAME:tagname 
+				  "Solution_Path"
+
+
+Docker Run:docker run -d -p 8080:80 --name myapp shoppingclient
